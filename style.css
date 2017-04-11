@@ -68,7 +68,7 @@ a {text-decoration: none}
 a:focus,a:hover {color: #4BA2F2;text-decoration: underline}
 
 #content img { max-width: 90%}
-#header {background-repeat:no-repeat;background-position:top center;background-size:cover;position: relative;text-align: center;border-radius:25px;}
+#header {background-repeat:no-repeat;background-position:top center;background-size:cover;position: relative;text-align: center;border-radius:15px;}
 #headerinfo {text-align:center;background-color:rgba(0,0,0,0.5);color:white;position:relative;font-weight:bold;padding:10px;border-radius:15px;margin: 0 0 30px 0;}
 #profilepicture {border-radius:25px;clear:both;}
 .footer{width:100%;}
@@ -79,7 +79,7 @@ a:focus,a:hover {color: #4BA2F2;text-decoration: underline}
 .voteblock {margin: 7px 0 0 0;}
 .scvote {text-align:center;}
 code { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
-.postblock {margin: 0 0 30px 0; background: #f1f1f1;padding: 30px;border:1px solid #ccc;}
+.postblock {margin: 0 0 40px 0; background: #f1f1f1;padding: 30px;border:1px solid #ccc;}
 .postheader {padding: 10px;font-weight: 700;clear:both;text-align:center;border-radius:25px;border:2px solid #4BA2F2;background: #fff;}
 .post {padding: 30px 25px 0 25px;color:#111;}
 .loader {height: 4px;width: 100%;position: relative;overflow: hidden;background-color: white;}
