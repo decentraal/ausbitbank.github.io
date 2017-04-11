@@ -48,7 +48,7 @@ function displayheader(profile,steemusername){
 function displayposts(posts){
   for (var i = 0; i < posts.length; i += 1) {
     var postcontent = '<div class="postblock"><div class="postheader"><h3><a href="/'+posts[i]['permlink']+'">'+posts[i]['title']+'</a></h3>';
-    postcontent += 'Posted by <a href="http://steemit.com/@'+posts[i]['author']+'">'+posts[i]['author']+'</a> on '+posts[i]['last_update']+' in '+posts[i]['category']+'<br />Vote now!<br /><iframe src="https://steemconnect.com/embed/vote?author='+posts[i]['author']+'&amp;permlink='+posts[i]['permlink']+'" allowtransparency="true" scrolling="no" class="scvote" width="50" height="20" frameborder="0"></iframe></div>';
+    postcontent += 'Posted by <a href="http://steemit.com/@'+posts[i]['author']+'">'+posts[i]['author']+'</a> on '+posts[i]['last_update']+' in '+posts[i]['category']+'<br /><div class="voteblock">Vote now!<br /><iframe src="https://steemconnect.com/embed/vote?author='+posts[i]['author']+'&amp;permlink='+posts[i]['permlink']+'" allowtransparency="true" scrolling="no" class="scvote" width="50" height="20" frameborder="0"></iframe></div></div>';
     postcontent += '<div class="post" id="'+posts[i]['author']+'/'+posts[i]['permlink']+'">'+posts[i]['body']+'<hr></div></div>';
     document.getElementById("content").innerHTML += postcontent;
   }
