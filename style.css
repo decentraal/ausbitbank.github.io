@@ -73,7 +73,7 @@ a:focus,a:hover {color: #4BA2F2;text-decoration: underline}
 #profilepicture {border-radius:25px;clear:both;}
 .footer{width:100%;}
 .postfooter {text-align:center;}
-.profile, .profile h1 {text-align:center;font-weight:bold;margin:0 0 20px 0;}
+.profile, .profile h1 {text-align:center;font-weight:bold;margin: 0 0 30px 0;line-height: 15px;}
 .pull-left{float:left;}
 .pull-right{float:right;}
 .scvote {text-align:center;}
